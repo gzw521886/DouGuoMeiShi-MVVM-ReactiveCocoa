@@ -2,7 +2,7 @@
 
 仿照豆果美食UI界面，用到ReactiveCocoa、MVVM。
 
-真的是特别喜欢ReactiveCocoa。要是熟练了以后，用起来一定特爽。
+真的是特别喜欢ReactiveCocoa。
 
 页面中所有数据都为抓取豆果美食接口，只用来学习。
 
