@@ -1,0 +1,30 @@
+//
+//  Weekend.pch
+//  Weekend
+//
+//  Created by JiubaiMacMZG on 2017/5/16.
+//  Copyright © 2017年 JiubaiMacmini. All rights reserved.
+//
+
+#ifndef Weekend_pch
+#define Weekend_pch
+
+//#import <CommonElement.h>
+#import <ReactiveCocoa.h>
+#import "WKConfig.h"
+#import "WKConst.h"
+#import "WKNetWorking.h"
+#import "WeekHomeModel.h"
+
+
+
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import <SDWebImage/SDWebImageManager.h>
+#import <YYKit/YYKit.h>
+#import <MJRefresh.h>
+#import <Masonry.h>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Weekend_pch */

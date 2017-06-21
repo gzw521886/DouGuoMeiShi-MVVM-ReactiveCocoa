@@ -1,0 +1,1119 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F0F7ECF1EE9018300FBC922 /* WKTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0F7ECE1EE9018300FBC922 /* WKTableViewCell.m */; };
+		2F0F7ED51EE9306000FBC922 /* WKHomeTaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0F7ED41EE9306000FBC922 /* WKHomeTaCell.m */; };
+		2F0F7ED81EE9307A00FBC922 /* WHomeMCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0F7ED71EE9307A00FBC922 /* WHomeMCell.m */; };
+		2F0F7EDB1EE9309A00FBC922 /* WHomeADVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0F7EDA1EE9309A00FBC922 /* WHomeADVCell.m */; };
+		2F0F7EDE1EE930AE00FBC922 /* WHomeRCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0F7EDD1EE930AE00FBC922 /* WHomeRCell.m */; };
+		2F1497221ECD7826006740D9 /* WKServerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1497211ECD7826006740D9 /* WKServerConfig.m */; };
+		2F1497251ECD835D006740D9 /* WKConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1497241ECD835D006740D9 /* WKConst.m */; };
+		2F1497291ECD9014006740D9 /* WKShowMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1497281ECD9014006740D9 /* WKShowMessageView.m */; };
+		2F1D561E1ED910D9002C3F5F /* WeekHomeProtocolImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D561D1ED910D9002C3F5F /* WeekHomeProtocolImpl.m */; };
+		2F1D56211ED92252002C3F5F /* WeekHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D56201ED92252002C3F5F /* WeekHomeModel.m */; };
+		2F1E78761EF3817200084F7B /* CardsScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1E78751EF3817200084F7B /* CardsScrollView.m */; };
+		2F1E78791EF381BB00084F7B /* UIImageView+ScrollBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1E78781EF381BB00084F7B /* UIImageView+ScrollBar.m */; };
+		2F2668651ECD4DFC009F51C1 /* WKAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2668641ECD4DFC009F51C1 /* WKAppDotNetAPIClient.m */; };
+		2F2742211EF1198400260A77 /* myLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2742201EF1198400260A77 /* myLayout.m */; };
+		2F7616E91EE79C1700D9C8DB /* ZYBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7616E31EE79C1700D9C8DB /* ZYBannerCell.m */; };
+		2F7616EA1EE79C1700D9C8DB /* ZYBannerFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7616E51EE79C1700D9C8DB /* ZYBannerFooter.m */; };
+		2F7616EB1EE79C1700D9C8DB /* ZYBannerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2F7616E61EE79C1700D9C8DB /* ZYBannerView.bundle */; };
+		2F7616EC1EE79C1700D9C8DB /* ZYBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7616E81EE79C1700D9C8DB /* ZYBannerView.m */; };
+		2F7616EF1EE7D20B00D9C8DB /* WKHomeLinkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7616EE1EE7D20B00D9C8DB /* WKHomeLinkView.m */; };
+		2F7616F61EE7DAC300D9C8DB /* WKLinkItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7616F51EE7DAC300D9C8DB /* WKLinkItemView.m */; };
+		2F7616F91EE7F79300D9C8DB /* WKHomeMealView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7616F81EE7F79200D9C8DB /* WKHomeMealView.m */; };
+		2F7616FC1EE7FADE00D9C8DB /* WKMealItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7616FB1EE7FADE00D9C8DB /* WKMealItemView.m */; };
+		2F86C1421ECADD0700703360 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F86C1411ECADD0700703360 /* main.m */; };
+		2F86C1451ECADD0700703360 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F86C1441ECADD0700703360 /* AppDelegate.m */; };
+		2F86C1481ECADD0700703360 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F86C1471ECADD0700703360 /* ViewController.m */; };
+		2F86C14B1ECADD0700703360 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F86C1491ECADD0700703360 /* Main.storyboard */; };
+		2F86C14D1ECADD0700703360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F86C14C1ECADD0700703360 /* Assets.xcassets */; };
+		2F86C1501ECADD0700703360 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F86C14E1ECADD0700703360 /* LaunchScreen.storyboard */; };
+		2F86C15B1ECADD0700703360 /* WeekendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F86C15A1ECADD0700703360 /* WeekendTests.m */; };
+		2F86C1661ECADD0700703360 /* WeekendUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F86C1651ECADD0700703360 /* WeekendUITests.m */; };
+		2F86C17B1ECAE24D00703360 /* WeekBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F86C17A1ECAE24D00703360 /* WeekBaseNavigationController.m */; };
+		2F86C17F1ECAE32C00703360 /* UIBarButtonItem+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F86C17E1ECAE32C00703360 /* UIBarButtonItem+Common.m */; };
+		2F86C1821ECAE92200703360 /* WeekendBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F86C1811ECAE92200703360 /* WeekendBaseViewController.m */; };
+		2F86C18B1ECAECE000703360 /* HomeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F86C18A1ECAECE000703360 /* HomeNavigationController.m */; };
+		2F86C18E1ECAED3A00703360 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F86C18D1ECAED3A00703360 /* HomeViewController.m */; };
+		2FB9FA711EE542EB006B25FF /* WKHomeCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9FA701EE542EB006B25FF /* WKHomeCarouselView.m */; };
+		2FD1ED4C1ECC398F00B47783 /* WKNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1ED4B1ECC398F00B47783 /* WKNetWorking.m */; };
+		2FD6B6331EE638190085BE53 /* WKHomebannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD6B6321EE638190085BE53 /* WKHomebannerView.m */; };
+		2FD6B6361EE68E1E0085BE53 /* WKTableViewBindingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD6B6351EE68E1E0085BE53 /* WKTableViewBindingHelper.m */; };
+		2FEA02901ED417D500450890 /* WKNetWorkingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEA028F1ED417D500450890 /* WKNetWorkingTest.m */; };
+		2FEA02931ED4182C00450890 /* WeekTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEA02921ED4182C00450890 /* WeekTestCase.m */; };
+		2FFD5D251EDEAA0C0082E86C /* WeekViewModelServicesImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFD5D241EDEAA0C0082E86C /* WeekViewModelServicesImpl.m */; };
+		2FFD5D281EDEAD250082E86C /* WKViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFD5D271EDEAD250082E86C /* WKViewModel.m */; };
+		2FFD5D2B1EDEB6880082E86C /* WKHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFD5D2A1EDEB6880082E86C /* WKHomeViewModel.m */; };
+		81A93F7B2D1F9E88EC0CCA40 /* libPods-Weekend.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4709B37E4521638D10AA17F /* libPods-Weekend.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F86C1571ECADD0700703360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F86C1351ECADD0700703360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F86C13C1ECADD0700703360;
+			remoteInfo = Weekend;
+		};
+		2F86C1621ECADD0700703360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F86C1351ECADD0700703360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F86C13C1ECADD0700703360;
+			remoteInfo = Weekend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F0F7ECC1EE9010300FBC922 /* WKReactiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKReactiveView.h; sourceTree = "<group>"; };
+		2F0F7ECD1EE9018300FBC922 /* WKTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKTableViewCell.h; sourceTree = "<group>"; };
+		2F0F7ECE1EE9018300FBC922 /* WKTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKTableViewCell.m; sourceTree = "<group>"; };
+		2F0F7ED31EE9306000FBC922 /* WKHomeTaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKHomeTaCell.h; sourceTree = "<group>"; };
+		2F0F7ED41EE9306000FBC922 /* WKHomeTaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHomeTaCell.m; sourceTree = "<group>"; };
+		2F0F7ED61EE9307A00FBC922 /* WHomeMCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHomeMCell.h; sourceTree = "<group>"; };
+		2F0F7ED71EE9307A00FBC922 /* WHomeMCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHomeMCell.m; sourceTree = "<group>"; };
+		2F0F7ED91EE9309A00FBC922 /* WHomeADVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHomeADVCell.h; sourceTree = "<group>"; };
+		2F0F7EDA1EE9309A00FBC922 /* WHomeADVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHomeADVCell.m; sourceTree = "<group>"; };
+		2F0F7EDC1EE930AE00FBC922 /* WHomeRCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHomeRCell.h; sourceTree = "<group>"; };
+		2F0F7EDD1EE930AE00FBC922 /* WHomeRCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHomeRCell.m; sourceTree = "<group>"; };
+		2F14971F1ECD721A006740D9 /* WKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKConfig.h; sourceTree = "<group>"; };
+		2F1497201ECD7826006740D9 /* WKServerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKServerConfig.h; sourceTree = "<group>"; };
+		2F1497211ECD7826006740D9 /* WKServerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKServerConfig.m; sourceTree = "<group>"; };
+		2F1497231ECD835D006740D9 /* WKConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKConst.h; sourceTree = "<group>"; };
+		2F1497241ECD835D006740D9 /* WKConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKConst.m; sourceTree = "<group>"; };
+		2F1497271ECD9014006740D9 /* WKShowMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKShowMessageView.h; sourceTree = "<group>"; };
+		2F1497281ECD9014006740D9 /* WKShowMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKShowMessageView.m; sourceTree = "<group>"; };
+		2F1D561C1ED910D9002C3F5F /* WeekHomeProtocolImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekHomeProtocolImpl.h; sourceTree = "<group>"; };
+		2F1D561D1ED910D9002C3F5F /* WeekHomeProtocolImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekHomeProtocolImpl.m; sourceTree = "<group>"; };
+		2F1D561F1ED92252002C3F5F /* WeekHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekHomeModel.h; sourceTree = "<group>"; };
+		2F1D56201ED92252002C3F5F /* WeekHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekHomeModel.m; sourceTree = "<group>"; };
+		2F1E78741EF3817200084F7B /* CardsScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsScrollView.h; sourceTree = "<group>"; };
+		2F1E78751EF3817200084F7B /* CardsScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsScrollView.m; sourceTree = "<group>"; };
+		2F1E78771EF381BB00084F7B /* UIImageView+ScrollBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ScrollBar.h"; sourceTree = "<group>"; };
+		2F1E78781EF381BB00084F7B /* UIImageView+ScrollBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ScrollBar.m"; sourceTree = "<group>"; };
+		2F2668631ECD4DFC009F51C1 /* WKAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKAppDotNetAPIClient.h; sourceTree = "<group>"; };
+		2F2668641ECD4DFC009F51C1 /* WKAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKAppDotNetAPIClient.m; sourceTree = "<group>"; };
+		2F27421F1EF1198400260A77 /* myLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myLayout.h; sourceTree = "<group>"; };
+		2F2742201EF1198400260A77 /* myLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myLayout.m; sourceTree = "<group>"; };
+		2F7616E21EE79C1700D9C8DB /* ZYBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBannerCell.h; sourceTree = "<group>"; };
+		2F7616E31EE79C1700D9C8DB /* ZYBannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBannerCell.m; sourceTree = "<group>"; };
+		2F7616E41EE79C1700D9C8DB /* ZYBannerFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBannerFooter.h; sourceTree = "<group>"; };
+		2F7616E51EE79C1700D9C8DB /* ZYBannerFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBannerFooter.m; sourceTree = "<group>"; };
+		2F7616E61EE79C1700D9C8DB /* ZYBannerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYBannerView.bundle; sourceTree = "<group>"; };
+		2F7616E71EE79C1700D9C8DB /* ZYBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBannerView.h; sourceTree = "<group>"; };
+		2F7616E81EE79C1700D9C8DB /* ZYBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBannerView.m; sourceTree = "<group>"; };
+		2F7616ED1EE7D20B00D9C8DB /* WKHomeLinkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKHomeLinkView.h; sourceTree = "<group>"; };
+		2F7616EE1EE7D20B00D9C8DB /* WKHomeLinkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHomeLinkView.m; sourceTree = "<group>"; };
+		2F7616F41EE7DAC300D9C8DB /* WKLinkItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKLinkItemView.h; sourceTree = "<group>"; };
+		2F7616F51EE7DAC300D9C8DB /* WKLinkItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKLinkItemView.m; sourceTree = "<group>"; };
+		2F7616F71EE7F79200D9C8DB /* WKHomeMealView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKHomeMealView.h; sourceTree = "<group>"; };
+		2F7616F81EE7F79200D9C8DB /* WKHomeMealView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHomeMealView.m; sourceTree = "<group>"; };
+		2F7616FA1EE7FADE00D9C8DB /* WKMealItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKMealItemView.h; sourceTree = "<group>"; };
+		2F7616FB1EE7FADE00D9C8DB /* WKMealItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKMealItemView.m; sourceTree = "<group>"; };
+		2F86C13D1ECADD0700703360 /* Weekend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weekend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F86C1411ECADD0700703360 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F86C1431ECADD0700703360 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		2F86C1441ECADD0700703360 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		2F86C1461ECADD0700703360 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		2F86C1471ECADD0700703360 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		2F86C14A1ECADD0700703360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F86C14C1ECADD0700703360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		2F86C14F1ECADD0700703360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F86C1511ECADD0700703360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F86C1561ECADD0700703360 /* WeekendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeekendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F86C15A1ECADD0700703360 /* WeekendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeekendTests.m; sourceTree = "<group>"; };
+		2F86C15C1ECADD0700703360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F86C1611ECADD0700703360 /* WeekendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeekendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F86C1651ECADD0700703360 /* WeekendUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeekendUITests.m; sourceTree = "<group>"; };
+		2F86C1671ECADD0700703360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F86C1761ECAE13B00703360 /* Weekend.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weekend.pch; sourceTree = "<group>"; };
+		2F86C1791ECAE24D00703360 /* WeekBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekBaseNavigationController.h; sourceTree = "<group>"; };
+		2F86C17A1ECAE24D00703360 /* WeekBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekBaseNavigationController.m; sourceTree = "<group>"; };
+		2F86C17D1ECAE32C00703360 /* UIBarButtonItem+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Common.h"; sourceTree = "<group>"; };
+		2F86C17E1ECAE32C00703360 /* UIBarButtonItem+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Common.m"; sourceTree = "<group>"; };
+		2F86C1801ECAE92200703360 /* WeekendBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekendBaseViewController.h; sourceTree = "<group>"; };
+		2F86C1811ECAE92200703360 /* WeekendBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekendBaseViewController.m; sourceTree = "<group>"; };
+		2F86C1891ECAECE000703360 /* HomeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeNavigationController.h; sourceTree = "<group>"; };
+		2F86C18A1ECAECE000703360 /* HomeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeNavigationController.m; sourceTree = "<group>"; };
+		2F86C18C1ECAED3A00703360 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2F86C18D1ECAED3A00703360 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2F86C1941ECAF78C00703360 /* WKViewModelProtocolImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKViewModelProtocolImpl.h; sourceTree = "<group>"; };
+		2FB9FA6F1EE542EB006B25FF /* WKHomeCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKHomeCarouselView.h; sourceTree = "<group>"; };
+		2FB9FA701EE542EB006B25FF /* WKHomeCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHomeCarouselView.m; sourceTree = "<group>"; };
+		2FD1ED4A1ECC398F00B47783 /* WKNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKNetWorking.h; sourceTree = "<group>"; };
+		2FD1ED4B1ECC398F00B47783 /* WKNetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKNetWorking.m; sourceTree = "<group>"; };
+		2FD6B6311EE638190085BE53 /* WKHomebannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKHomebannerView.h; sourceTree = "<group>"; };
+		2FD6B6321EE638190085BE53 /* WKHomebannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHomebannerView.m; sourceTree = "<group>"; };
+		2FD6B6341EE68E1E0085BE53 /* WKTableViewBindingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKTableViewBindingHelper.h; sourceTree = "<group>"; };
+		2FD6B6351EE68E1E0085BE53 /* WKTableViewBindingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKTableViewBindingHelper.m; sourceTree = "<group>"; };
+		2FEA028F1ED417D500450890 /* WKNetWorkingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKNetWorkingTest.m; sourceTree = "<group>"; };
+		2FEA02911ED4182C00450890 /* WeekTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekTestCase.h; sourceTree = "<group>"; };
+		2FEA02921ED4182C00450890 /* WeekTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekTestCase.m; sourceTree = "<group>"; };
+		2FFD5D221EDEA96A0082E86C /* WeekViewModelService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekViewModelService.h; sourceTree = "<group>"; };
+		2FFD5D231EDEAA0C0082E86C /* WeekViewModelServicesImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekViewModelServicesImpl.h; sourceTree = "<group>"; };
+		2FFD5D241EDEAA0C0082E86C /* WeekViewModelServicesImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekViewModelServicesImpl.m; sourceTree = "<group>"; };
+		2FFD5D261EDEAD250082E86C /* WKViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKViewModel.h; sourceTree = "<group>"; };
+		2FFD5D271EDEAD250082E86C /* WKViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKViewModel.m; sourceTree = "<group>"; };
+		2FFD5D291EDEB6880082E86C /* WKHomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKHomeViewModel.h; sourceTree = "<group>"; };
+		2FFD5D2A1EDEB6880082E86C /* WKHomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHomeViewModel.m; sourceTree = "<group>"; };
+		A4680D7CE5CBC1B133839AA3 /* Pods-Weekend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weekend.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Weekend/Pods-Weekend.debug.xcconfig"; sourceTree = "<group>"; };
+		D4709B37E4521638D10AA17F /* libPods-Weekend.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Weekend.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F607CACA9733777C0AD20D33 /* Pods-Weekend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weekend.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weekend/Pods-Weekend.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F86C13A1ECADD0700703360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A93F7B2D1F9E88EC0CCA40 /* libPods-Weekend.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F86C1531ECADD0700703360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F86C15E1ECADD0700703360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F14971E1ECD70EE006740D9 /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+				2F14971F1ECD721A006740D9 /* WKConfig.h */,
+				2F1497201ECD7826006740D9 /* WKServerConfig.h */,
+				2F1497211ECD7826006740D9 /* WKServerConfig.m */,
+				2F1497231ECD835D006740D9 /* WKConst.h */,
+				2F1497241ECD835D006740D9 /* WKConst.m */,
+			);
+			path = Configure;
+			sourceTree = "<group>";
+		};
+		2F1497261ECD8FEC006740D9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2F1497271ECD9014006740D9 /* WKShowMessageView.h */,
+				2F1497281ECD9014006740D9 /* WKShowMessageView.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2F1E78731EF37E7700084F7B /* SimpleBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				2F1E78771EF381BB00084F7B /* UIImageView+ScrollBar.h */,
+				2F1E78781EF381BB00084F7B /* UIImageView+ScrollBar.m */,
+				2F1E78741EF3817200084F7B /* CardsScrollView.h */,
+				2F1E78751EF3817200084F7B /* CardsScrollView.m */,
+			);
+			path = SimpleBannerView;
+			sourceTree = "<group>";
+		};
+		2F7616E01EE79BB300D9C8DB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2F1E78731EF37E7700084F7B /* SimpleBannerView */,
+				2F7616E11EE79C1700D9C8DB /* ZYBannerView */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2F7616E11EE79C1700D9C8DB /* ZYBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				2F7616E21EE79C1700D9C8DB /* ZYBannerCell.h */,
+				2F7616E31EE79C1700D9C8DB /* ZYBannerCell.m */,
+				2F7616E41EE79C1700D9C8DB /* ZYBannerFooter.h */,
+				2F7616E51EE79C1700D9C8DB /* ZYBannerFooter.m */,
+				2F7616E61EE79C1700D9C8DB /* ZYBannerView.bundle */,
+				2F7616E71EE79C1700D9C8DB /* ZYBannerView.h */,
+				2F7616E81EE79C1700D9C8DB /* ZYBannerView.m */,
+				2F27421F1EF1198400260A77 /* myLayout.h */,
+				2F2742201EF1198400260A77 /* myLayout.m */,
+			);
+			path = ZYBannerView;
+			sourceTree = "<group>";
+		};
+		2F7A5469794667370596FBE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4709B37E4521638D10AA17F /* libPods-Weekend.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F86C1341ECADD0700703360 = {
+			isa = PBXGroup;
+			children = (
+				2F86C13F1ECADD0700703360 /* Weekend */,
+				2F86C1591ECADD0700703360 /* WeekendTests */,
+				2F86C1641ECADD0700703360 /* WeekendUITests */,
+				2F86C13E1ECADD0700703360 /* Products */,
+				BE46C69ED545B987ECFA30E3 /* Pods */,
+				2F7A5469794667370596FBE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F86C13E1ECADD0700703360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F86C13D1ECADD0700703360 /* Weekend.app */,
+				2F86C1561ECADD0700703360 /* WeekendTests.xctest */,
+				2F86C1611ECADD0700703360 /* WeekendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F86C13F1ECADD0700703360 /* Weekend */ = {
+			isa = PBXGroup;
+			children = (
+				2F86C1751ECADFC700703360 /* Application */,
+				2F86C1741ECADFC000703360 /* Classes */,
+				2F86C1731ECADFA600703360 /* Tool */,
+				2F86C1401ECADD0700703360 /* Supporting Files */,
+			);
+			path = Weekend;
+			sourceTree = "<group>";
+		};
+		2F86C1401ECADD0700703360 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F86C1511ECADD0700703360 /* Info.plist */,
+				2F86C1411ECADD0700703360 /* main.m */,
+				2F86C1761ECAE13B00703360 /* Weekend.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F86C1591ECADD0700703360 /* WeekendTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F86C15A1ECADD0700703360 /* WeekendTests.m */,
+				2F86C15C1ECADD0700703360 /* Info.plist */,
+				2FEA028F1ED417D500450890 /* WKNetWorkingTest.m */,
+				2FEA02911ED4182C00450890 /* WeekTestCase.h */,
+				2FEA02921ED4182C00450890 /* WeekTestCase.m */,
+			);
+			path = WeekendTests;
+			sourceTree = "<group>";
+		};
+		2F86C1641ECADD0700703360 /* WeekendUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F86C1651ECADD0700703360 /* WeekendUITests.m */,
+				2F86C1671ECADD0700703360 /* Info.plist */,
+			);
+			path = WeekendUITests;
+			sourceTree = "<group>";
+		};
+		2F86C1731ECADFA600703360 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				2F7616E01EE79BB300D9C8DB /* Other */,
+				2F1497261ECD8FEC006740D9 /* Utils */,
+				2F14971E1ECD70EE006740D9 /* Configure */,
+				2FD1ED491ECC38A300B47783 /* NetWork */,
+				2F86C17C1ECAE2E400703360 /* Category */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		2F86C1741ECADFC000703360 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2F86C1831ECAEAD500703360 /* Home */,
+				2F86C1771ECAE1ED00703360 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2F86C1751ECADFC700703360 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2F86C1431ECADD0700703360 /* AppDelegate.h */,
+				2F86C1441ECADD0700703360 /* AppDelegate.m */,
+				2F86C1461ECADD0700703360 /* ViewController.h */,
+				2F86C1471ECADD0700703360 /* ViewController.m */,
+				2F86C1491ECADD0700703360 /* Main.storyboard */,
+				2F86C14C1ECADD0700703360 /* Assets.xcassets */,
+				2F86C14E1ECADD0700703360 /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2F86C1771ECAE1ED00703360 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2F86C18F1ECAF6ED00703360 /* Base */,
+				2F86C1881ECAECB000703360 /* NavigationController */,
+				2F86C1781ECAE1ED00703360 /* BaseController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2F86C1781ECAE1ED00703360 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				2F86C1791ECAE24D00703360 /* WeekBaseNavigationController.h */,
+				2F86C17A1ECAE24D00703360 /* WeekBaseNavigationController.m */,
+				2F86C1801ECAE92200703360 /* WeekendBaseViewController.h */,
+				2F86C1811ECAE92200703360 /* WeekendBaseViewController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		2F86C17C1ECAE2E400703360 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2F86C17D1ECAE32C00703360 /* UIBarButtonItem+Common.h */,
+				2F86C17E1ECAE32C00703360 /* UIBarButtonItem+Common.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2F86C1831ECAEAD500703360 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2F86C1841ECAEB5400703360 /* Controller */,
+				2F86C1851ECAEB5400703360 /* Model */,
+				2F86C1861ECAEB5400703360 /* ViewModel */,
+				2F86C1871ECAEB5400703360 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2F86C1841ECAEB5400703360 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F86C18C1ECAED3A00703360 /* HomeViewController.h */,
+				2F86C18D1ECAED3A00703360 /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F86C1851ECAEB5400703360 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F1D561C1ED910D9002C3F5F /* WeekHomeProtocolImpl.h */,
+				2F1D561D1ED910D9002C3F5F /* WeekHomeProtocolImpl.m */,
+				2F1D561F1ED92252002C3F5F /* WeekHomeModel.h */,
+				2F1D56201ED92252002C3F5F /* WeekHomeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F86C1861ECAEB5400703360 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2FFD5D291EDEB6880082E86C /* WKHomeViewModel.h */,
+				2FFD5D2A1EDEB6880082E86C /* WKHomeViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2F86C1871ECAEB5400703360 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2FB9FA6F1EE542EB006B25FF /* WKHomeCarouselView.h */,
+				2FB9FA701EE542EB006B25FF /* WKHomeCarouselView.m */,
+				2FD6B6311EE638190085BE53 /* WKHomebannerView.h */,
+				2FD6B6321EE638190085BE53 /* WKHomebannerView.m */,
+				2F7616ED1EE7D20B00D9C8DB /* WKHomeLinkView.h */,
+				2F7616EE1EE7D20B00D9C8DB /* WKHomeLinkView.m */,
+				2F7616F41EE7DAC300D9C8DB /* WKLinkItemView.h */,
+				2F7616F51EE7DAC300D9C8DB /* WKLinkItemView.m */,
+				2F7616F71EE7F79200D9C8DB /* WKHomeMealView.h */,
+				2F7616F81EE7F79200D9C8DB /* WKHomeMealView.m */,
+				2F7616FA1EE7FADE00D9C8DB /* WKMealItemView.h */,
+				2F7616FB1EE7FADE00D9C8DB /* WKMealItemView.m */,
+				2F0F7ED31EE9306000FBC922 /* WKHomeTaCell.h */,
+				2F0F7ED41EE9306000FBC922 /* WKHomeTaCell.m */,
+				2F0F7ED61EE9307A00FBC922 /* WHomeMCell.h */,
+				2F0F7ED71EE9307A00FBC922 /* WHomeMCell.m */,
+				2F0F7ED91EE9309A00FBC922 /* WHomeADVCell.h */,
+				2F0F7EDA1EE9309A00FBC922 /* WHomeADVCell.m */,
+				2F0F7EDC1EE930AE00FBC922 /* WHomeRCell.h */,
+				2F0F7EDD1EE930AE00FBC922 /* WHomeRCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F86C1881ECAECB000703360 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				2F86C1891ECAECE000703360 /* HomeNavigationController.h */,
+				2F86C18A1ECAECE000703360 /* HomeNavigationController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		2F86C18F1ECAF6ED00703360 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2F86C1901ECAF6ED00703360 /* Controller */,
+				2F86C1911ECAF6ED00703360 /* Model */,
+				2F86C1921ECAF6ED00703360 /* View */,
+				2F86C1931ECAF6ED00703360 /* ViewModel */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2F86C1901ECAF6ED00703360 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F86C1911ECAF6ED00703360 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F86C1941ECAF78C00703360 /* WKViewModelProtocolImpl.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F86C1921ECAF6ED00703360 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2FD6B6341EE68E1E0085BE53 /* WKTableViewBindingHelper.h */,
+				2FD6B6351EE68E1E0085BE53 /* WKTableViewBindingHelper.m */,
+				2F0F7ECC1EE9010300FBC922 /* WKReactiveView.h */,
+				2F0F7ECD1EE9018300FBC922 /* WKTableViewCell.h */,
+				2F0F7ECE1EE9018300FBC922 /* WKTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F86C1931ECAF6ED00703360 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2FFD5D221EDEA96A0082E86C /* WeekViewModelService.h */,
+				2FFD5D231EDEAA0C0082E86C /* WeekViewModelServicesImpl.h */,
+				2FFD5D241EDEAA0C0082E86C /* WeekViewModelServicesImpl.m */,
+				2FFD5D261EDEAD250082E86C /* WKViewModel.h */,
+				2FFD5D271EDEAD250082E86C /* WKViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2FD1ED491ECC38A300B47783 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				2FD1ED4A1ECC398F00B47783 /* WKNetWorking.h */,
+				2FD1ED4B1ECC398F00B47783 /* WKNetWorking.m */,
+				2F2668631ECD4DFC009F51C1 /* WKAppDotNetAPIClient.h */,
+				2F2668641ECD4DFC009F51C1 /* WKAppDotNetAPIClient.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		BE46C69ED545B987ECFA30E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4680D7CE5CBC1B133839AA3 /* Pods-Weekend.debug.xcconfig */,
+				F607CACA9733777C0AD20D33 /* Pods-Weekend.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F86C13C1ECADD0700703360 /* Weekend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F86C16A1ECADD0700703360 /* Build configuration list for PBXNativeTarget "Weekend" */;
+			buildPhases = (
+				79E2C2D329E4A70D7EC3B3C0 /* [CP] Check Pods Manifest.lock */,
+				2F86C1391ECADD0700703360 /* Sources */,
+				2F86C13A1ECADD0700703360 /* Frameworks */,
+				2F86C13B1ECADD0700703360 /* Resources */,
+				BF7EB424CE8DC51E3C2A631A /* [CP] Embed Pods Frameworks */,
+				78FACFCE775C5269F49072B7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weekend;
+			productName = Weekend;
+			productReference = 2F86C13D1ECADD0700703360 /* Weekend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F86C1551ECADD0700703360 /* WeekendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F86C16D1ECADD0700703360 /* Build configuration list for PBXNativeTarget "WeekendTests" */;
+			buildPhases = (
+				2F86C1521ECADD0700703360 /* Sources */,
+				2F86C1531ECADD0700703360 /* Frameworks */,
+				2F86C1541ECADD0700703360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F86C1581ECADD0700703360 /* PBXTargetDependency */,
+			);
+			name = WeekendTests;
+			productName = WeekendTests;
+			productReference = 2F86C1561ECADD0700703360 /* WeekendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F86C1601ECADD0700703360 /* WeekendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F86C1701ECADD0700703360 /* Build configuration list for PBXNativeTarget "WeekendUITests" */;
+			buildPhases = (
+				2F86C15D1ECADD0700703360 /* Sources */,
+				2F86C15E1ECADD0700703360 /* Frameworks */,
+				2F86C15F1ECADD0700703360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F86C1631ECADD0700703360 /* PBXTargetDependency */,
+			);
+			name = WeekendUITests;
+			productName = WeekendUITests;
+			productReference = 2F86C1611ECADD0700703360 /* WeekendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F86C1351ECADD0700703360 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JiubaiMacmini;
+				TargetAttributes = {
+					2F86C13C1ECADD0700703360 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					2F86C1551ECADD0700703360 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F86C13C1ECADD0700703360;
+					};
+					2F86C1601ECADD0700703360 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F86C13C1ECADD0700703360;
+					};
+				};
+			};
+			buildConfigurationList = 2F86C1381ECADD0700703360 /* Build configuration list for PBXProject "Weekend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F86C1341ECADD0700703360;
+			productRefGroup = 2F86C13E1ECADD0700703360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F86C13C1ECADD0700703360 /* Weekend */,
+				2F86C1551ECADD0700703360 /* WeekendTests */,
+				2F86C1601ECADD0700703360 /* WeekendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F86C13B1ECADD0700703360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F86C1501ECADD0700703360 /* LaunchScreen.storyboard in Resources */,
+				2F86C14D1ECADD0700703360 /* Assets.xcassets in Resources */,
+				2F86C14B1ECADD0700703360 /* Main.storyboard in Resources */,
+				2F7616EB1EE79C1700D9C8DB /* ZYBannerView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F86C1541ECADD0700703360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F86C15F1ECADD0700703360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78FACFCE775C5269F49072B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Weekend/Pods-Weekend-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79E2C2D329E4A70D7EC3B3C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF7EB424CE8DC51E3C2A631A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Weekend/Pods-Weekend-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F86C1391ECADD0700703360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7616E91EE79C1700D9C8DB /* ZYBannerCell.m in Sources */,
+				2FB9FA711EE542EB006B25FF /* WKHomeCarouselView.m in Sources */,
+				2F0F7ED51EE9306000FBC922 /* WKHomeTaCell.m in Sources */,
+				2F7616FC1EE7FADE00D9C8DB /* WKMealItemView.m in Sources */,
+				2F7616F91EE7F79300D9C8DB /* WKHomeMealView.m in Sources */,
+				2F86C17F1ECAE32C00703360 /* UIBarButtonItem+Common.m in Sources */,
+				2F0F7EDB1EE9309A00FBC922 /* WHomeADVCell.m in Sources */,
+				2F2668651ECD4DFC009F51C1 /* WKAppDotNetAPIClient.m in Sources */,
+				2F1497221ECD7826006740D9 /* WKServerConfig.m in Sources */,
+				2F86C17B1ECAE24D00703360 /* WeekBaseNavigationController.m in Sources */,
+				2FFD5D281EDEAD250082E86C /* WKViewModel.m in Sources */,
+				2FFD5D251EDEAA0C0082E86C /* WeekViewModelServicesImpl.m in Sources */,
+				2F1D56211ED92252002C3F5F /* WeekHomeModel.m in Sources */,
+				2F86C1481ECADD0700703360 /* ViewController.m in Sources */,
+				2FD6B6361EE68E1E0085BE53 /* WKTableViewBindingHelper.m in Sources */,
+				2F7616F61EE7DAC300D9C8DB /* WKLinkItemView.m in Sources */,
+				2FD6B6331EE638190085BE53 /* WKHomebannerView.m in Sources */,
+				2F1E78761EF3817200084F7B /* CardsScrollView.m in Sources */,
+				2F86C18B1ECAECE000703360 /* HomeNavigationController.m in Sources */,
+				2F7616EC1EE79C1700D9C8DB /* ZYBannerView.m in Sources */,
+				2F1D561E1ED910D9002C3F5F /* WeekHomeProtocolImpl.m in Sources */,
+				2F1E78791EF381BB00084F7B /* UIImageView+ScrollBar.m in Sources */,
+				2F0F7ED81EE9307A00FBC922 /* WHomeMCell.m in Sources */,
+				2F0F7ECF1EE9018300FBC922 /* WKTableViewCell.m in Sources */,
+				2F0F7EDE1EE930AE00FBC922 /* WHomeRCell.m in Sources */,
+				2FD1ED4C1ECC398F00B47783 /* WKNetWorking.m in Sources */,
+				2F86C1821ECAE92200703360 /* WeekendBaseViewController.m in Sources */,
+				2F86C1451ECADD0700703360 /* AppDelegate.m in Sources */,
+				2F86C1421ECADD0700703360 /* main.m in Sources */,
+				2F2742211EF1198400260A77 /* myLayout.m in Sources */,
+				2F1497291ECD9014006740D9 /* WKShowMessageView.m in Sources */,
+				2F7616EA1EE79C1700D9C8DB /* ZYBannerFooter.m in Sources */,
+				2FFD5D2B1EDEB6880082E86C /* WKHomeViewModel.m in Sources */,
+				2F7616EF1EE7D20B00D9C8DB /* WKHomeLinkView.m in Sources */,
+				2F86C18E1ECAED3A00703360 /* HomeViewController.m in Sources */,
+				2F1497251ECD835D006740D9 /* WKConst.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F86C1521ECADD0700703360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F86C15B1ECADD0700703360 /* WeekendTests.m in Sources */,
+				2FEA02901ED417D500450890 /* WKNetWorkingTest.m in Sources */,
+				2FEA02931ED4182C00450890 /* WeekTestCase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F86C15D1ECADD0700703360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F86C1661ECADD0700703360 /* WeekendUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F86C1581ECADD0700703360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F86C13C1ECADD0700703360 /* Weekend */;
+			targetProxy = 2F86C1571ECADD0700703360 /* PBXContainerItemProxy */;
+		};
+		2F86C1631ECADD0700703360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F86C13C1ECADD0700703360 /* Weekend */;
+			targetProxy = 2F86C1621ECADD0700703360 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F86C1491ECADD0700703360 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F86C14A1ECADD0700703360 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2F86C14E1ECADD0700703360 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F86C14F1ECADD0700703360 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F86C1681ECADD0700703360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F86C1691ECADD0700703360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F86C16B1ECADD0700703360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4680D7CE5CBC1B133839AA3 /* Pods-Weekend.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Weekend/Weekend.pch";
+				INFOPLIST_FILE = Weekend/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"MJExtension\"",
+					"-l\"MJRefresh\"",
+					"-l\"MMProgressHUD\"",
+					"-l\"Masonry\"",
+					"-l\"ReactiveCocoa\"",
+					"-l\"SDWebImage\"",
+					"-l\"YYKit\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"WebP\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiubaisoft.Weekend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2F86C16C1ECADD0700703360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F607CACA9733777C0AD20D33 /* Pods-Weekend.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Weekend/Weekend.pch";
+				INFOPLIST_FILE = Weekend/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"MJExtension\"",
+					"-l\"MJRefresh\"",
+					"-l\"MMProgressHUD\"",
+					"-l\"Masonry\"",
+					"-l\"ReactiveCocoa\"",
+					"-l\"SDWebImage\"",
+					"-l\"YYKit\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"WebP\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiubaisoft.Weekend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2F86C16E1ECADD0700703360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeekendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiubaisoft.WeekendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weekend.app/Weekend";
+			};
+			name = Debug;
+		};
+		2F86C16F1ECADD0700703360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeekendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiubaisoft.WeekendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weekend.app/Weekend";
+			};
+			name = Release;
+		};
+		2F86C1711ECADD0700703360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeekendUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiubaisoft.WeekendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Weekend;
+			};
+			name = Debug;
+		};
+		2F86C1721ECADD0700703360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeekendUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiubaisoft.WeekendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Weekend;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F86C1381ECADD0700703360 /* Build configuration list for PBXProject "Weekend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F86C1681ECADD0700703360 /* Debug */,
+				2F86C1691ECADD0700703360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F86C16A1ECADD0700703360 /* Build configuration list for PBXNativeTarget "Weekend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F86C16B1ECADD0700703360 /* Debug */,
+				2F86C16C1ECADD0700703360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F86C16D1ECADD0700703360 /* Build configuration list for PBXNativeTarget "WeekendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F86C16E1ECADD0700703360 /* Debug */,
+				2F86C16F1ECADD0700703360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F86C1701ECADD0700703360 /* Build configuration list for PBXNativeTarget "WeekendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F86C1711ECADD0700703360 /* Debug */,
+				2F86C1721ECADD0700703360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F86C1351ECADD0700703360 /* Project object */;
+}
